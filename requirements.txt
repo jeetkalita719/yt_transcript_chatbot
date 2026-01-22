@@ -1,0 +1,18 @@
+# Core LangChain packages
+langchain-core
+langchain-text-splitters
+langchain-community
+langchain-openai
+langchain-classic
+
+# Vector Store
+faiss-cpu
+
+# YouTube Transcript API
+youtube-transcript-api
+
+# Environment Variables
+python-dotenv
+
+# OpenAI (dependency for langchain-openai)
+openai
