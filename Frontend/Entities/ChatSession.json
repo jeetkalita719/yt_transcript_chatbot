@@ -1,0 +1,51 @@
+{
+  "name": "ChatSession",
+  "type": "object",
+  "properties": {
+    "video_id": {
+      "type": "string",
+      "description": "YouTube video ID"
+    },
+    "video_title": {
+      "type": "string",
+      "description": "Title of the YouTube video"
+    },
+    "video_thumbnail": {
+      "type": "string",
+      "description": "Thumbnail URL of the video"
+    },
+    "video_duration": {
+      "type": "string",
+      "description": "Duration of the video"
+    },
+    "transcript": {
+      "type": "string",
+      "description": "Video transcript"
+    },
+    "messages": {
+      "type": "array",
+      "description": "Chat messages",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "isUser": {
+            "type": "boolean"
+          },
+          "userQuestion": {
+            "type": "string"
+          }
+        }
+      },
+      "default": []
+    }
+  },
+  "required": [
+    "video_id"
+  ]
+}

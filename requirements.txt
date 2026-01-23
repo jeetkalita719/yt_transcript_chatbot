@@ -8,6 +8,9 @@ langchain-classic
 # Vector Store
 faiss-cpu
 
+# BM25 for hybrid search
+rank-bm25
+
 # YouTube Transcript API
 youtube-transcript-api
 
@@ -16,3 +19,8 @@ python-dotenv
 
 # OpenAI (dependency for langchain-openai)
 openai
+
+# FastAPI and server
+fastapi
+uvicorn[standard]
+python-multipart
